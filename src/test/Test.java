@@ -1,10 +1,13 @@
 package test;
 
+import sort.BubbleSort;
+
 public class Test {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		BubbleSort bubble = new BubbleSort();
+		
+		bubble.sort();
 	}
 
 }
